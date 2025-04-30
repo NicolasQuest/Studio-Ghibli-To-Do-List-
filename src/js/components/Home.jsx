@@ -72,7 +72,9 @@ const Home = () => {
                     )}
                   </ul>
                 </div>
-                <span className="cuenta ">{count} Items left</span>
+                <span className="cuenta ">
+                  {count === 1 ? count + " Item left" : count + " Items left"}
+                </span>
               </div>
             </div>
           </div>
@@ -96,7 +98,9 @@ const Home = () => {
                 </ul>
                 <div d-flex justify-content-center>
                   <span className="cuenta ">
-                    {taskCompleted} Task completed
+                    {taskCompleted <= 1
+                      ? taskCompleted + " task completed"
+                      : taskCompleted + " tasks completed"}
                   </span>
                   <button
                     onClick={clearTasks}
