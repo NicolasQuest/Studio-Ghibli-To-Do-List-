@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 
+import Home from "./components/Home";
 //Bootstrap
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap";
