@@ -1,0 +1,104 @@
+body {
+  font-size: 1.2rem;
+  background-image: url(https://images5.alphacoders.com/102/1022332.jpg);
+  background-repeat: none;
+  background-size: cover;
+
+  font-family: "Gidole", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+li {
+  list-style-type: none;
+  color: white;
+}
+h1 {
+  color: white;
+  font-size: 2.5rem;
+}
+h2 {
+  color: white;
+  font-size: 2rem;
+}
+
+ul {
+  padding: 0;
+}
+/* p {
+  color: white;
+  padding: 1.5px;
+} */
+input {
+  border: none;
+  outline: none;
+}
+
+.activeHover {
+  display: inline;
+}
+
+.displayNone {
+  display: none;
+}
+
+.cuenta {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 8px;
+  font-size: 0.9rem;
+  color: white;
+}
+.cuenta2 {
+  position: absolute;
+  bottom: 0;
+
+  right: 0;
+  margin-right: 5px;
+  padding: 8px;
+  font-size: 0.9rem;
+  color: white;
+}
+
+.display {
+  display: none;
+  font-size: 1.2rem;
+}
+
+li:hover button .display {
+  display: inline;
+}
+
+.lista {
+  background-image: url(https://wallpapersok.com/images/hd/radish-spirit-spirited-away-desktop-cfve9427spgr4krf.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 263px;
+  min-width: 350px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  position: relative;
+}
+.lista2 {
+  background-image: url(https://wallpapercat.com/w/full/c/a/3/34561-1080x1923-mobile-hd-spirited-away-background.jpg);
+  background-size: cover;
+  background-position: center bottom;
+  min-height: 300px;
+  min-width: 350px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  position: relative;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 1030;
+  color: white;
+  padding: 1rem;
+  background-color: transparent; /* Fondo transparente */
+  margin: 0;
+  padding: 0;
+  backdrop-filter: blur(1px);
+  z-index: -2;
+}
